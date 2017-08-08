@@ -9,15 +9,15 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('Article1.html', function (req, res) {
+app.get('Article1', function (req, res) {
   res.send('Artcle1 will be displayed');
 });
 
-app.get('Article2.html', function (req, res) {
+app.get('Article2', function (req, res) {
   res.send('Artcle2 will be displayed');
 });
 
-app.get('Article3.html', function (req, res) {
+app.get('Article3', function (req, res) {
   res.send('Artcle3 will be displayed');
 });
 
