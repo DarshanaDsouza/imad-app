@@ -54,7 +54,7 @@ var content=data.content;
   </body>
 </html>
 `;
-return htmpTemplate
+return htmlTemplate
 }
     
 
