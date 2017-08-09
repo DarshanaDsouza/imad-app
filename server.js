@@ -90,17 +90,11 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/Article1', function (req, res) {
-  res.send(CreatehtmlTemplate(articles.article1));
+app.get('/:Articlename', function (req, res) {
+    var Articlename = req.param.Articlename;
+    res.send(CreatehtmlTemplate(articles[articlename]));
 });
 
-app.get('/Article2', function (req, res) {
-  res.send(CreatehtmlTemplate(articles.article2));
-});
-
-app.get('/Article3', function (req, res) {
-  res.send(CreatehtmlTemplate(articles.article3));
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
