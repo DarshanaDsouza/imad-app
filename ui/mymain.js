@@ -1,0 +1,2 @@
+
+alert("new javascript";
