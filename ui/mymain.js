@@ -1,2 +1,2 @@
 
-alert("new javascript";
+alert("new javascript");
