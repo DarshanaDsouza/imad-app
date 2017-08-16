@@ -10,14 +10,15 @@
   };
   
   
-var nameInput = document.getElementById('name');
-var name = nameInput.value;
+
 var submit = document.getElementById('submit-btn');
 submit.onclick = function(){
     
     var request = new XMLHttpRequest();
     
     request.onreadystatechange = function(){
+        var nameInput = document.getElementById('name');
+        var name = nameInput.value;
         if (request.readystate === XMLHttpRequest.DONE){
             if (request.status === 200){
                 var names = request.responseText;
