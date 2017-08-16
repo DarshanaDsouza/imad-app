@@ -101,11 +101,6 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-app.get('/:articleName', function (req, res) {
-    var articleName = req.params.articleName;
-    res.send(CreatehtmlTemplate(articles[articleName]));
-});
-
 var names=[];
 app.get('/submit-name/:name', function (req, res) {
     var name = req.params.name;
@@ -113,6 +108,13 @@ app.get('/submit-name/:name', function (req, res) {
     //JSON - Javascript object notification
     res.send(JSON.stringify(names));
 });
+
+app.get('/:articleName', function (req, res) {
+    var articleName = req.params.articleName;
+    res.send(CreatehtmlTemplate(articles[articleName]));
+});
+
+
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
