@@ -1,4 +1,4 @@
-alert('in javascript');
+//alert('in javascript');
 
   var button = document.getElementById('counter');
   var counter=0;
