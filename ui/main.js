@@ -22,4 +22,4 @@ submit.onclick = function(){
     }
     var ul = document.getElementById('namelist');
     ul.innerHtml=list;
-}
+};
