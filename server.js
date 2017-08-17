@@ -82,7 +82,7 @@ var content=data.content;
             Comments
           </h3>
           <div>
-                <input type="text" id="comment"  placeholder="comments"></input>
+                <input type="text" id="comment"  placeholder="comment"></input>
                 <input type="submit"  id ="submit-comm" value="submit" </input>
                 <ul id = 'commlist'>
                     <l1>list1</l1>
@@ -119,6 +119,14 @@ app.get('/submit-name', function (req, res) {
     names.push(name);
     //JSON - Javascript object notification
     res.send(JSON.stringify(names));
+});
+
+var comments=[];
+app.get('/submit-comm', function (req, res) {
+    var comment = req.query.comment;
+    comments.push(comment);
+    //JSON - Javascript object notification
+    res.send(JSON.stringify(comments));
 });
 
 
