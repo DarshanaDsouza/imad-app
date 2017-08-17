@@ -17,6 +17,7 @@ var articles ={
                       This is content one for article 1 This is content one for article 1 This is content one for article 1 This is content one for article 1 This is content one for article 1 This is content one for article 1 This is content one for article 1 This is content one for article 1 This is content one for article 1This is content one for article 1
                   </p>
                 `  
+        
     },
     Article2 :{
         title: 'Title Article 2 - dd',
@@ -76,6 +77,18 @@ var content=data.content;
           <div>
              ${content}
           </div>
+          <h/>
+          <h3>
+            Comments
+          </h3>
+          <div>
+                <input type="text" id="comments"  placeholder="comments"></input>
+                <input type="submit"  id ="submit-comm" value="submit" </input>
+                <ul id = 'commlist'>
+                    <l1>list1</l1>
+                </ul> 
+        </div>
+    },
     </div>
   </body>
 </html>
