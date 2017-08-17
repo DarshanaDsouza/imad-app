@@ -24,6 +24,4 @@ submitcomm.onclick = function(){
     var comment = commentInput.value;
     request.open('GET','http://darshanadsouzaj.imad.hasura-app.io/submit-comm?comment=' + comment, true);
     request.send(null);
-
-     
 };
