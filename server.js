@@ -88,7 +88,6 @@ var content=data.content;
                     <l1>list1</l1>
                 </ul> 
         </div>
-    },
     </div>
   </body>
 </html>
