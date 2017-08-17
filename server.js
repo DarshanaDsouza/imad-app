@@ -89,7 +89,7 @@ var content=data.content;
                 </ul> 
         </div>
     </div>
-    <script type="text/javascript" src="/ui/main.js">
+    <script type="text/javascript" src="/ui/mymain.js">
         </script>
   </body>
 </html>
