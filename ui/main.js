@@ -77,7 +77,7 @@ var content=data.content;
           <div>
              ${content}
           </div>
-          <h/>
+          <hr/>
           <h3>
             Comments
           </h3>
