@@ -33,7 +33,7 @@ submit.onclick = function(){
             }
         }
     };
-    var commentInput = document.getElementById('name');
+    var nameInput = document.getElementById('name');
     var name = nameInput.value;
     request.open('GET','http://darshanadsouzaj.imad.hasura-app.io/submit-comm?name=' + name, true);
     request.send(null);
