@@ -121,13 +121,7 @@ app.get('/submit-name', function (req, res) {
     res.send(JSON.stringify(names));
 });
 
-var comments=[];
-app.get('/submit-comm', function (req, res) {
-    var comment = req.query.comment;
-    comments.push(comment);
-    //JSON - Javascript object notification
-    res.send(JSON.stringify(comments));
-});
+
 
 
 
