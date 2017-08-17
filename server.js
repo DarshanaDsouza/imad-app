@@ -83,7 +83,7 @@ var content=data.content;
           </h3>
           <div>
                 <input type="text" id="comment"  placeholder="comment"></input>
-                <input type="submit"  id ="submit-comm" value="submit" </input>
+                <input type="submit"  id ="submitcomm" value="submit" </input>
                 <ul id = 'commlist'>
                     <l1>list1</l1>
                 </ul> 
