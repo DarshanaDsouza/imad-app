@@ -1,5 +1,5 @@
 //alert('in javascript');
-
+/*
   var button = document.getElementById('counter');
   var counter=0;
   button.onclick = function(){
@@ -9,7 +9,7 @@
     span.innerHTML = counter.toString();
   };
   
-  
+  */
 
 var submit = document.getElementById('submit-btn');
 submit.onclick = function(){
