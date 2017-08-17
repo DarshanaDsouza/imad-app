@@ -40,7 +40,7 @@ submit.onclick = function(){
 };
 
 
-/*
+
 var submitcomm = document.getElementById('submitcomm');
 submitcomm.onclick = function(){
    
@@ -69,4 +69,4 @@ submitcomm.onclick = function(){
      
 };
 
-    */
+    
