@@ -40,7 +40,7 @@ submit.onclick = function(){
 };
 
 
-var submitcomm = document.getElementById('submit-comm');
+var submitcomm = document.getElementById('submitcomm');
 submitcomm.onclick = function(){
    
     var request = new XMLHttpRequest();
