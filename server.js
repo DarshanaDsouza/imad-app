@@ -80,7 +80,7 @@ var content=data.content;
               ${heading}
           </h3>
           <div>
-              ${date.date}
+              ${date.toDateString()}
           </div>
       
           <div>
