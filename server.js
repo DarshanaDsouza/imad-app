@@ -45,10 +45,10 @@ var articles ={
         heading:'Heading Article 2',
         date:'23 Oct 2003',
         content:` <p>
-                       This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 
+                       This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 
                   </p>
                   <p>
-                      This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 This is content one for article 2 
+                      This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 This is content one for article 3 
                   </p>
                 `  
     }
