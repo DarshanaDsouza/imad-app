@@ -111,7 +111,7 @@ return htmlTemplate
     
 function hash(input,salt){
     var hashed = crypto.pbkdf2Sync(input, salt, 100000, 512, 'sha512');
-    return hashed.tostring('hex');
+    return hashed.toString('hex');
 }
 
 app.get('/hash/:input', function(req, res){
