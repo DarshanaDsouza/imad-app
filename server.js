@@ -191,6 +191,10 @@ app.get('/ui/mymain.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'mymain.js'));
 });
 
+app.get('/ui/login.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'login.js'));
+});
+
 
 var names=[];
 app.get('/submit-name', function (req, res) {
