@@ -157,9 +157,7 @@ app.post('/login', function(req,res){
                         res.status(403).send('Username/Password is Invalid');
                     }
                 }
-                
         }
-        }  
     });
 });
 
