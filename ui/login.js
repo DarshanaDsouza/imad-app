@@ -9,7 +9,7 @@ submit.onclick = function(){
         if (request.readyState === XMLHttpRequest.DONE) {
             if (request.status === 200) {
                alert("logged in successfully");
-            } else if (request.status === 400) {
+            } else if (request.status === 403) {
                 alert("username/password is incorrect");
             } else if (request.status === 500) {
                 alert("oops contatct admin");
